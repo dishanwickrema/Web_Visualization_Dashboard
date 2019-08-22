@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Responsive Grid Website</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="top-container">
+            <b><a href="#">Lattitude</a></b>
+            <div class="nested">
+                <div class="dropdown">
+                    <div class="dropbtn">Plots
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="maxtemperature.html">Max Temperature</a>
+                        <a href="humidity.html">Humidity</a>
+                        <a href="cloudiness.html">Cloudiness</a>
+                        <a href="windspeed.html">Wind Speed</a>
+                    </div>
+                </div>
+                <a href="comparison.html">Comparison</a>
+                <a href="data.html">Data</a>
+            </div>
+        </nav>
+        <section class="mid-container">
+            <header class="showcase1">
+                <div><b>Summary: Latitiude vs. X</b></div>
+                <img src="Resources/assets/images/Fig1.png" width="230" height="200" style="float: left">
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. Th
+                    accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on
+                    over 500 cities.</p>
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
+                    latitiude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This
+                    site provides the source data and visualizations created as part of the analysis, as well as
+                    explanations and descriptions of any trends and correlations witnessed.</p>
+            </header>
+            <header class="showcase2">
+                <b>Visualizations</b>
+                <section class="images">
+                    <img src="Resources/assets/images/Fig1.png">
+                    <img src="Resources/assets/images/Fig2.png">
+                    <img src="Resources/assets/images/Fig3.png">
+                    <img src="Resources/assets/images/Fig4.png">
+                </section>
+            </header>
+        </section>
+    </div>
+    <!--Wrapper Ends-->
+</body>
+
+</html>
